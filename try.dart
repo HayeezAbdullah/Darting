@@ -1,7 +1,7 @@
-void main() {
-  var firstName = "Hayeez";
-  String lastName = "Abdullah";
-  var space = " ";
+import 'dart:io';
 
-  print(firstName + space + lastName);
+void main() {
+  stdout.writeln('can you see JOHN CENA ?');
+  String? answer = stdin.readLineSync();
+  print('yeah I can $answer');
 }
